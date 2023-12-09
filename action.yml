@@ -1,11 +1,10 @@
-name: 'The-GhostRider'
-description: 'Provide a description here'
+name: 'The-GhostRiderGitHubActions-issue-labeler'
+description: 'Issue labeler for GR-PRJ_AzerothCore-Wotlk2.0 Repository'
 author: 'The-GhostRider'
 inputs:
-  milliseconds: # change this
+  token:
+    description: 'GitHub token with access to the repository'
     required: true
-    description: 'input description here'
-    default: 'default value if applicable'
 runs:
   using: 'node12'
   main: 'dist/index.js'
