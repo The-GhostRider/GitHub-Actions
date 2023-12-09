@@ -2,6 +2,8 @@
   <a href="https://github.com/actions/typescript-action/actions"><img alt="typescript-action status" src="https://github.com/actions/typescript-action/workflows/build-test/badge.svg"></a>
 </p>
 
+Credit goes to Jackpoz who initially implemented it in https://github.com/trinitycore/GitHub-Actions/tree/issue-labeler
+
 # Create a JavaScript Action using TypeScript
 
 Use this template to bootstrap the creation of a TypeScript action.:rocket:
