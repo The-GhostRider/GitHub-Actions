@@ -1,6 +1,6 @@
 name: 'Your name here'
 description: 'Provide a description here'
-author: 'AzerothCore'
+author: 'The-GhostRider'
 inputs:
   milliseconds: # change this
     required: true
