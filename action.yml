@@ -1,0 +1,10 @@
+name: 'AzerothCoreGitHubActions-issue-labeler'
+description: 'Issue labeler for AzerohCore-wotlk Repository'
+author: 'AzerothCore'
+inputs:
+  token:
+    description: 'GitHub token with access to the repository'
+    required: true
+runs:
+  using: 'node12'
+  main: 'dist/index.js'
